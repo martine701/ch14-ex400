@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CustomerListComponent } from './customer-list.component';
+import { CustomerComponent } from './customer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerListComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule
